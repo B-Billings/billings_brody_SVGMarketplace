@@ -17,3 +17,7 @@ body {
     grid-template-rows: auto;
     grid-gap: 20px;
 }
+
+.container{
+    display: flex;
+}
