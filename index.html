@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
-    <main class="app">
-        <header>
+    <main id="app">
+        <header class="main-header">
             <h1 class="hidden">Welcome to my Awesome SG Store</h1>
-            <h2>My Store</h2>
-            <nav>
-                <ul class="main-nav">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </ul>
-            </nav>
+            <h2 class="main-heading">My SVG Icons</h2>
         </header>
-        <section class="icons">
-            <h1 class="hidden">My Awesome Icons</h1>
+        <section id="svg-grid">
+            <article class="container">
+                <h2 class="hidden"> Graphic 1</h2>
+                <img src="images/" alt="graphic">
+                <p>left</p>
+            </article>
+            <article class="container">
+                <h2 class="hidden"> Graphic 2</h2>
+                <img src="images/" alt="graphic 2">
+                <p>right</p>
+            </article>
         </section>
     </main>
     <footer>The footer area</footer>
-    <script src="main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>
