@@ -11,5 +11,5 @@ theHeading.addEventListener("click", logElement);
 theIcons.forEach (icon => icon.addEventListener("click", logElement));
     
 
-
+//load in svg badges
 })();
