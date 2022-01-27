@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><style>.cls-1{fill:#ccc;}.cls-2{fill:#fff;}.cls-3{fill:red;}</style></defs><g id="border"><g id="border-2" data-name="border"><rect class="cls-1" x="10" y="10" width="380" height="380" rx="62.7"/><path d="M327.3,20A52.76,52.76,0,0,1,380,72.7V327.3A52.76,52.76,0,0,1,327.3,380H72.7A52.76,52.76,0,0,1,20,327.3V72.7A52.76,52.76,0,0,1,72.7,20H327.3m0-20H72.7A72.7,72.7,0,0,0,0,72.7V327.3A72.7,72.7,0,0,0,72.7,400H327.3A72.7,72.7,0,0,0,400,327.3V72.7A72.7,72.7,0,0,0,327.3,0Z"/></g></g><g id="monitor"><g id="monitor-2" data-name="monitor"><rect class="cls-2" x="66.79" y="82.89" width="267" height="128"/><path d="M323.79,92.89v108h-247v-108h247m16.08-20H60.71a3.92,3.92,0,0,0-3.92,3.92V217a3.91,3.91,0,0,0,3.92,3.91H339.87a3.92,3.92,0,0,0,3.92-3.91V76.81a3.93,3.93,0,0,0-3.92-3.92Z"/><path d="M199.79,221.89v0m20-20h-40v86h40v-86Z"/><path d="M321.54,280.89H79a6.25,6.25,0,0,0-6.25,6.26v16.49A6.25,6.25,0,0,0,79,309.89h242.5a6.25,6.25,0,0,0,6.25-6.25V287.15a6.25,6.25,0,0,0-6.25-6.26Z"/></g><g id="power_light" data-name="power light"><circle class="cls-3" cx="332.79" cy="209.89" r="2"/><path class="cls-3" d="M332.79,207.89a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z"/></g></g></svg>
+<svg id="monitor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>.cls-1{fill:#ccc;}.cls-2{fill:#fff;}.cls-3{fill:red;}</style>
+    <script>
+      let themonitor = document.querySelector("#monitor")
+
+      function LogMyId (){
+      console.log(this.id);
+      }
+
+      themonitor.addEventListener("click", LogMyId)
+
+    </script>
+  </defs><g id="border"><g id="border-2" data-name="border"><rect class="cls-1" x="10" y="10" width="380" height="380" rx="62.7"/><path d="M327.3,20A52.76,52.76,0,0,1,380,72.7V327.3A52.76,52.76,0,0,1,327.3,380H72.7A52.76,52.76,0,0,1,20,327.3V72.7A52.76,52.76,0,0,1,72.7,20H327.3m0-20H72.7A72.7,72.7,0,0,0,0,72.7V327.3A72.7,72.7,0,0,0,72.7,400H327.3A72.7,72.7,0,0,0,400,327.3V72.7A72.7,72.7,0,0,0,327.3,0Z"/></g></g><g id="monitor"><g id="monitor-2" data-name="monitor"><rect class="cls-2" x="66.79" y="82.89" width="267" height="128"/><path d="M323.79,92.89v108h-247v-108h247m16.08-20H60.71a3.92,3.92,0,0,0-3.92,3.92V217a3.91,3.91,0,0,0,3.92,3.91H339.87a3.92,3.92,0,0,0,3.92-3.91V76.81a3.93,3.93,0,0,0-3.92-3.92Z"/><path d="M199.79,221.89v0m20-20h-40v86h40v-86Z"/><path d="M321.54,280.89H79a6.25,6.25,0,0,0-6.25,6.26v16.49A6.25,6.25,0,0,0,79,309.89h242.5a6.25,6.25,0,0,0,6.25-6.25V287.15a6.25,6.25,0,0,0-6.25-6.26Z"/></g><g id="power_light" data-name="power light"><circle class="cls-3" cx="332.79" cy="209.89" r="2"/><path class="cls-3" d="M332.79,207.89a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z"/></g></g></svg>
