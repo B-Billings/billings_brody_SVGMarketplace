@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><style>.cls-1{fill:#ccc;}.cls-2,.cls-4{fill:none;}.cls-2,.cls-3,.cls-4{stroke:#000;stroke-miterlimit:10;stroke-width:11px;}.cls-4{fill-rule:evenodd;}</style></defs><g id="border"><g id="border-2" data-name="border"><rect class="cls-1" x="10" y="10" width="380" height="380" rx="62.7"/><path d="M327.3,20A52.76,52.76,0,0,1,380,72.7V327.3A52.76,52.76,0,0,1,327.3,380H72.7A52.76,52.76,0,0,1,20,327.3V72.7A52.76,52.76,0,0,1,72.7,20H327.3m0-20H72.7A72.7,72.7,0,0,0,0,72.7V327.3A72.7,72.7,0,0,0,72.7,400H327.3A72.7,72.7,0,0,0,400,327.3V72.7A72.7,72.7,0,0,0,327.3,0Z"/></g></g><g id="base"><g id="base-2" data-name="base"><rect class="cls-1" x="134.79" y="149.89" width="131" height="159" rx="12.55"/><path d="M253.24,159.89a2.56,2.56,0,0,1,2.55,2.56V296.34a2.55,2.55,0,0,1-2.55,2.55H147.34a2.55,2.55,0,0,1-2.55-2.55V162.45a2.56,2.56,0,0,1,2.55-2.56h105.9m0-20H147.34a22.56,22.56,0,0,0-22.55,22.56V296.34a22.55,22.55,0,0,0,22.55,22.55h105.9a22.55,22.55,0,0,0,22.55-22.55V162.45a22.56,22.56,0,0,0-22.55-22.56Z"/><line class="cls-2" x1="199.79" y1="302.89" x2="199.79" y2="157.89"/><line class="cls-2" x1="228.29" y1="302.89" x2="228.29" y2="157.89"/><line class="cls-2" x1="170.29" y1="302.89" x2="170.29" y2="157.89"/></g></g><g id="top"><g id="lid"><rect class="cls-3" x="124.29" y="104.41" width="151" height="13.98" rx="6.99" transform="translate(-17.59 40.19) rotate(-11.01)"/><path class="cls-4" d="M227.76,97l-62.83,12.22A32,32,0,0,1,227.76,97Z"/></g></g></svg>
+<svg id="trashcan" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>.cls-1{fill:#ccc;}.cls-2,.cls-4{fill:none;}.cls-2,.cls-3,.cls-4{stroke:#000;stroke-miterlimit:10;stroke-width:11px;}.cls-4{fill-rule:evenodd;}</style>
+    <script>
+      let thetrashcan = document.querySelector("#trashcan")
+
+      function LogMyId (){
+      console.log(this.id);
+      }
+
+      thetrashcan.addEventListener("click", LogMyId)
+
+    </script>
+  </defs>
+  <g id="border"><g id="border-2" data-name="border"><rect class="cls-1" x="10" y="10" width="380" height="380" rx="62.7"/><path d="M327.3,20A52.76,52.76,0,0,1,380,72.7V327.3A52.76,52.76,0,0,1,327.3,380H72.7A52.76,52.76,0,0,1,20,327.3V72.7A52.76,52.76,0,0,1,72.7,20H327.3m0-20H72.7A72.7,72.7,0,0,0,0,72.7V327.3A72.7,72.7,0,0,0,72.7,400H327.3A72.7,72.7,0,0,0,400,327.3V72.7A72.7,72.7,0,0,0,327.3,0Z"/></g></g><g id="base"><g id="base-2" data-name="base"><rect class="cls-1" x="134.79" y="149.89" width="131" height="159" rx="12.55"/><path d="M253.24,159.89a2.56,2.56,0,0,1,2.55,2.56V296.34a2.55,2.55,0,0,1-2.55,2.55H147.34a2.55,2.55,0,0,1-2.55-2.55V162.45a2.56,2.56,0,0,1,2.55-2.56h105.9m0-20H147.34a22.56,22.56,0,0,0-22.55,22.56V296.34a22.55,22.55,0,0,0,22.55,22.55h105.9a22.55,22.55,0,0,0,22.55-22.55V162.45a22.56,22.56,0,0,0-22.55-22.56Z"/><line class="cls-2" x1="199.79" y1="302.89" x2="199.79" y2="157.89"/><line class="cls-2" x1="228.29" y1="302.89" x2="228.29" y2="157.89"/><line class="cls-2" x1="170.29" y1="302.89" x2="170.29" y2="157.89"/></g></g><g id="top"><g id="lid"><rect class="cls-3" x="124.29" y="104.41" width="151" height="13.98" rx="6.99" transform="translate(-17.59 40.19) rotate(-11.01)"/><path class="cls-4" d="M227.76,97l-62.83,12.22A32,32,0,0,1,227.76,97Z"/></g></g></svg>

@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<svg id="headphones" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
 <defs>
   <style>
-    .cls-1,.cls-3{fill:#ccc;}.cls-2{fill:none;stroke:#000;}.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:20px;}.cls-3{stroke:#ccc;}</style></defs><g id="border"><g id="border-2" data-name="border"><rect class="cls-1" x="10" y="10" width="380" height="380" rx="62.7"/><path d="M327.3,20A52.76,52.76,0,0,1,380,72.7V327.3A52.76,52.76,0,0,1,327.3,380H72.7A52.76,52.76,0,0,1,20,327.3V72.7A52.76,52.76,0,0,1,72.7,20H327.3m0-20H72.7A72.7,72.7,0,0,0,0,72.7V327.3A72.7,72.7,0,0,0,72.7,400H327.3A72.7,72.7,0,0,0,400,327.3V72.7A72.7,72.7,0,0,0,327.3,0Z"/></g></g><g id="Layer_1" data-name="Layer 1"><g id="Headphones"><g id="cup"><rect x="101.79" y="198.89" width="35" height="62" rx="9.97"/><path d="M126.79,208.89v42h-15v-42h15m0-20H111.76a20,20,0,0,0-20,20v42.07a20,20,0,0,0,20,20h15.06a20,20,0,0,0,20-20V208.86a20,20,0,0,0-20-20Z"/></g><g id="square_cup" data-name="square cup"><polygon points="146.79 188.9 125.79 188.9 125.79 270.89 146.79 270.89 146.79 188.9 146.79 188.9"/></g><g id="cup-2" data-name="cup"><rect x="270.79" y="198.89" width="35" height="62" rx="9.97"/><path d="M295.79,208.89v42h-15v-42h15m0-20H280.76a20,20,0,0,0-20,20v42.07a20,20,0,0,0,20,20h15.06a20,20,0,0,0,20-20V208.86a20,20,0,0,0-20-20Z"/></g><g id="square_cup-2" data-name="square cup"><polygon points="281.79 188.9 260.79 188.9 260.79 270.89 281.79 270.89 281.79 188.9 281.79 188.9"/></g><path id="headband" class="cls-2" d="M123.79,185a84,84,0,1,1,168,0C291.79,231.51,123.79,231.51,123.79,185Z"/><rect id="Headbandcover" class="cls-3" x="156.79" y="187.89" width="94" height="81"/></g></g></svg>
+    #badge:hover {cursor: pointer;}
+    .cls-1,.cls-3{fill:#ccc;}.cls-2{fill:none;stroke:#000;}.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:20px;}.cls-3{stroke:#ccc;}</style>
+    <script>
+      let theheadphones = document.querySelector("#headphones")
+
+      function LogMyId (){
+      console.log(this.id);
+      }
+
+      theheadphones.addEventListener("click", LogMyId)
+
+    </script>
+  </defs><g id="border"><g id="border-2" data-name="border"><rect class="cls-1" x="10" y="10" width="380" height="380" rx="62.7"/><path d="M327.3,20A52.76,52.76,0,0,1,380,72.7V327.3A52.76,52.76,0,0,1,327.3,380H72.7A52.76,52.76,0,0,1,20,327.3V72.7A52.76,52.76,0,0,1,72.7,20H327.3m0-20H72.7A72.7,72.7,0,0,0,0,72.7V327.3A72.7,72.7,0,0,0,72.7,400H327.3A72.7,72.7,0,0,0,400,327.3V72.7A72.7,72.7,0,0,0,327.3,0Z"/></g></g><g id="Layer_1" data-name="Layer 1"><g id="Headphones"><g id="cup"><rect x="101.79" y="198.89" width="35" height="62" rx="9.97"/><path d="M126.79,208.89v42h-15v-42h15m0-20H111.76a20,20,0,0,0-20,20v42.07a20,20,0,0,0,20,20h15.06a20,20,0,0,0,20-20V208.86a20,20,0,0,0-20-20Z"/></g><g id="square_cup" data-name="square cup"><polygon points="146.79 188.9 125.79 188.9 125.79 270.89 146.79 270.89 146.79 188.9 146.79 188.9"/></g><g id="cup-2" data-name="cup"><rect x="270.79" y="198.89" width="35" height="62" rx="9.97"/><path d="M295.79,208.89v42h-15v-42h15m0-20H280.76a20,20,0,0,0-20,20v42.07a20,20,0,0,0,20,20h15.06a20,20,0,0,0,20-20V208.86a20,20,0,0,0-20-20Z"/></g><g id="square_cup-2" data-name="square cup"><polygon points="281.79 188.9 260.79 188.9 260.79 270.89 281.79 270.89 281.79 188.9 281.79 188.9"/></g><path id="headband" class="cls-2" d="M123.79,185a84,84,0,1,1,168,0C291.79,231.51,123.79,231.51,123.79,185Z"/><rect id="Headbandcover" class="cls-3" x="156.79" y="187.89" width="94" height="81"/></g></g></svg>
