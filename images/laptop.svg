@@ -1,5 +1,37 @@
 <svg id="laptop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <defs><style>.cls-1{fill:#ccc;}.cls-2{fill:#fff;}</style>
+  <defs>
+    <style>
+      #laptop:hover {cursor:pointer;}
+      #laptop:hover #border-2
+      {
+      fill: red;
+      transition: all 1.5s ease;
+      }
+      #laptop:hover #Layer_1
+      {
+      transform: rotate(360deg);
+
+      transition: all 1.5s ease;
+      }
+
+      #laptop:hover .cls-2
+      {
+      fill: blue;
+      transition: all 1.5s ease;
+      }
+
+      #border-2{
+      transition: all 1.5s ease;
+      }
+      .cls-1{
+      fill:#ccc;
+      transition: all 1.5s ease;
+      }
+      .cls-2{
+      fill:#fff;
+      transition: all 1.5s ease;
+      }
+    </style>
   <script>
     let thelaptop = document.querySelector("#laptop")
 

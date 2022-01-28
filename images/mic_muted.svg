@@ -1,6 +1,20 @@
 <svg id="mic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <defs>
-    <style>.cls-1{fill:#ccc;}.cls-2,.cls-4{fill:red;}.cls-2,.cls-3,.cls-4{stroke:#000;stroke-miterlimit:10;stroke-width:20px;}.cls-3{fill:#ed1c24;}.cls-4{fill-rule:evenodd;}</style>
+    <style>
+      #mic:hover {cursor:pointer;}
+      #mic:hover #border-2
+      {
+      fill: red;
+      transition: all 1.5s ease;
+      }
+      #mic:hover .cls-2,.cls-4 {
+      fill: lightgreen;
+      transition: all 1s ease;
+      }
+      .cls-1{fill:#ccc;}
+      .cls-2,.cls-4{fill:red;}
+      .cls-2,.cls-3,.cls-4{stroke:#000;stroke-miterlimit:10;stroke-width:20px;}
+      .cls-3{fill:#ed1c24;}.cls-4{fill-rule:evenodd;}</style>
     <script>
       let themic = document.querySelector("#mic")
 

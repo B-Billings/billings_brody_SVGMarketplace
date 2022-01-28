@@ -1,5 +1,36 @@
 <svg id="mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <defs><style>.cls-1{fill:#ccc;}.cls-2,.cls-3{fill:#fff;}.cls-3{stroke:#000;stroke-miterlimit:10;stroke-width:20px;fill-rule:evenodd;}</style>
+  <defs>
+    <style>
+      #mail:hover {cursor:pointer;}
+      #mail:hover .cls-3 {
+      fill: red;
+      transform-origin: center ;
+      transform: rotate(720deg);
+      }
+      #mail:hover #border-2
+      {
+      fill: red;
+      transition: all 1.5s ease;
+      }
+      #mail:hover .cls-2 {
+      fill: red;
+      transition: all 2s ease;
+      }
+      .cls-1{fill:#ccc;
+
+      }
+      .cls-2,.cls-3
+      {
+      fill:#fff;
+      }
+      .cls-3{
+      transform-origin: center ;
+      stroke:#000;stroke-miterlimit:10;
+      stroke-width:20px;
+      fill-rule:evenodd;
+      transition: all 1.5s ease;
+      }
+    </style>
   <script>
     let themail = document.querySelector("#mail")
 
