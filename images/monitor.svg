@@ -1,12 +1,29 @@
 <svg id="monitor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <defs>
     <style>
+      #monitor:hover {cursor:pointer;}
+      #monitor:hover #border-2
+      {
+      fill: red;
+      transition: all 1.5s ease;
+      }
+      #monitor:hover .cls-3
+      {
+      fill: green;
+      }
+
+      #monitor:hover .cls-2
+      {
+      fill: blue;
+
+      }
       .cls-1{fill:#ccc;}
       .cls-2{
       fill:#fff;
-      fill: red;
+      transition: all 1.5s ease;
       }
-      .cls-3{fill:red;}</style>
+      .cls-3{fill:red;}
+    </style>
     <script>
       let themonitor = document.querySelector("#monitor")
 

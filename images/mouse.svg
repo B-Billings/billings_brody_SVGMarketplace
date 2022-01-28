@@ -1,6 +1,46 @@
 <svg id="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <defs>
-    <style>.cls-1{fill:#ccc;}.cls-2,.cls-5{fill:#fff;}.cls-3,.cls-4{fill:none;stroke:#000;}.cls-3,.cls-4,.cls-5{stroke-miterlimit:10;}.cls-3{stroke-width:20px;}.cls-4{stroke-width:13px;}.cls-5{stroke:#fff;stroke-width:3px;}</style>
+    <style>
+      #mouse:hover {cursor:pointer;}
+      #mouse:hover #border-2
+      {
+      fill: red;
+      transition: all 1.5s ease;
+      }
+      #mouse:hover .cls-2
+      {
+      fill: blue;
+      transition: all 1.5s ease;
+      }
+      .cls-1{
+      fill:#ccc;
+
+      }
+      .cls-2,.cls-5{
+      fill:#fff;
+      transform-origin: center ;
+
+      }
+      .cls-3,.cls-4{
+      fill:none;stroke:#000;
+
+      }
+      .cls-3,.cls-4,.cls-5{
+      stroke-miterlimit:10;
+      }
+      .cls-3{
+      stroke-width:20px;
+
+      }
+      .cls-4{
+      stroke-width:13px;
+
+      }
+      .cls-5{
+      stroke:#fff;stroke-width:3px;
+
+      }
+    </style>
     <script>
       let themouse = document.querySelector("#mouse")
 

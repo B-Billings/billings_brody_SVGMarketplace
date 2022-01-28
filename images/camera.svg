@@ -2,6 +2,18 @@
   <style>
     #camera:hover{cursor:pointer;}
     #camera:hover .cls-2 {fill: red;}
+    #lens{
+    transform-origin: center;
+    transition: all 1.5s ease;
+    }
+    #camera:hover #flash{
+    fill: yellow;
+    }
+
+    #camera:hover #lens{
+    transform: scale(1.1);
+
+    }
     .cls-1{
     fill:#ccc;
     }

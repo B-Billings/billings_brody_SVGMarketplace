@@ -1,13 +1,29 @@
 <svg id="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <defs>
     <style>
-      .cls-1{fill:#ccc;}
-      .cls-2{fill:#fff;}
-      #phone:hover phone
+      #phone:hover {cursor:pointer;}
+      #phone:hover #border-2
+      {
+      fill: red;
+      transition: all 1.5s ease;
+      }
+      #phone:hover #phone
       {
       transform: rotate(25deg);
       transform-origin: center;
       transition: all 1.5s ease;
+      }
+      .cls-1{fill:#ccc;
+      }
+      .cls-2{fill:#fff;
+
+      }
+      #phone:hover #display{
+      fill: cyan;
+      }
+      #phone {
+      transform-origin: center;
+
       }
 
     </style>
