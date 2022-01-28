@@ -16,6 +16,7 @@
     #keyboard-2:hover {
     transform: zoom(40%);
       transform: translateY(-40px);
+      transition: all 1.5s ease
     }
     #keyboard:hover #row_1
     {
