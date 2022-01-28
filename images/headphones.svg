@@ -1,8 +1,19 @@
 <svg id="headphones" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
 <defs>
   <style>
-    #badge:hover {cursor: pointer;}
-    .cls-1,.cls-3{fill:#ccc;}.cls-2{fill:none;stroke:#000;}.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:20px;}.cls-3{stroke:#ccc;}</style>
+    #headphones:hover {cursor:pointer;}
+    #headphones:hover #border
+    {
+    fill: red;
+    transition: all 1.5s ease;
+    }
+
+
+    .cls-1,.cls-3{fill:#ccc;}
+    .cls-2{fill:none;stroke:#000;}
+    .cls-2,.cls-3{stroke-miterlimit:10;stroke-width:20px;}
+    .cls-3{stroke:#ccc;}
+  </style>
     <script>
       let theheadphones = document.querySelector("#headphones")
 

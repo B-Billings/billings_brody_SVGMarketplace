@@ -1,5 +1,68 @@
 <svg id="keyboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <defs><style>.cls-1{fill:#ccc;}.cls-2{fill:#fff;}</style>
+  <defs>
+    <style>
+    #keyboard:hover {cursor:pointer;}
+    #keyboard:hover #border
+    {
+    fill: red;
+    transition: all 1.5s ease;
+    }
+    #keyboard:hover #body
+    {
+    fill: blue;
+    transition: all 1.5s ease
+    }
+
+    #keyboard-2:hover {
+    transform: zoom(40%);
+      transform: translateY(-40px);
+    }
+    #keyboard:hover #row_1
+    {
+    fill: red;
+    transition: all 1.5s ease
+    }
+
+    #keyboard:hover #row_2
+    {
+    fill: blue;
+    transition: all 1.5s ease
+    }
+    #keyboard:hover #row_3
+    {
+    fill: red;
+    transition: all 1.5s ease
+    }
+
+    #keyboard:hover #row_4
+    {
+    fill: blue;
+    transition: all 1.5s ease
+    }
+
+    #keyboard:hover #row_5
+    {
+    fill: red;
+    transition: all 1.5s ease
+    }
+    #keyboard:hover #row_6
+    {
+    fill: blue;
+    transition: all 1.5s ease
+    }
+
+    .cls-1{
+    fill:#ccc;
+    transform-origin: center
+    transition: all 2s ease;
+    }
+    .cls-2{
+    fill:#fff;
+    transform-origin: center
+    transition: all 2s ease;
+    }
+
+  </style>
   <script>
     let thekeyboard = document.querySelector("#keyboard")
 
